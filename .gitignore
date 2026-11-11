@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large datasets
+data/emails.csv
+data/raw/*.csv
+data/raw/*.zip
+
+# Keep trained models
+# models/*.joblib
